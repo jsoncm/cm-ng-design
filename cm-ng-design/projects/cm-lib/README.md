@@ -1,14 +1,9 @@
-<<<<<<< HEAD
 # CmLib
-=======
-# CyLib
->>>>>>> 60d4f2d2064c3445bccb5ddc62ef3b024fe8da5c
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
 
 ## Code scaffolding
 
-<<<<<<< HEAD
 Run `ng generate component component-name --project cm-lib` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project cm-lib`.
 > Note: Don't forget to add `--project cm-lib` or else it will be added to the default project in your `angular.json` file. 
 
@@ -24,21 +19,8 @@ After building your library with `ng build cm-lib`, go to the dist folder `cd di
 
 Run `ng test cm-lib` to execute the unit tests via [Karma](https://karma-runner.github.io).
 =======
-Run `ng generate component component-name --project cy-lib` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project cy-lib`.
-> Note: Don't forget to add `--project cy-lib` or else it will be added to the default project in your `angular.json` file. 
-
-## Build
-
-Run `ng build cy-lib` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Publishing
-
-After building your library with `ng build cy-lib`, go to the dist folder `cd dist/cy-lib` and run `npm publish`.
-
-## Running unit tests
-
-Run `ng test cy-lib` to execute the unit tests via [Karma](https://karma-runner.github.io).
->>>>>>> 60d4f2d2064c3445bccb5ddc62ef3b024fe8da5c
+Run `ng generate component component-name --project cm-lib` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project cm-lib`.
+> Note: Don't forget to add `--project cm-lib` or else it will be added to the default project in your `angular.json` file. 
 
 ## Further help
 
