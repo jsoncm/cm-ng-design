@@ -1,0 +1,19 @@
+// Configuration for IDEs only.
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": ".",
+        "paths": {
+            "cm-ng-design": [
+                "./cm-ng-design.module"
+            ],
+            "cm-ng-design/*": [
+                "./*"
+            ]
+        }
+    },
+    "include": [
+        "./**/*.ts"
+    ]
+}
