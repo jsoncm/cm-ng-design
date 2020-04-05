@@ -1,0 +1,8 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/cm-ng-design",
+  "lib": {
+    "entryFile": "./cm-ng-design.module.ts"
+  },
+  "whitelistedNonPeerDependencies": ["tslib", "angular", "date-fns", "@ant-design/icons-angular", "resize-observer-polyfill"]
+}
