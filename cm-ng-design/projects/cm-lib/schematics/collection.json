@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "ng-add": {
+      "description": "add CY-DESIGN",
+      "factory": "./src/ng-add/index",
+      "schema": "./src/ng-add/schema.json"
+    },
+    "ng-add-setup-project": {
+      "description": "Sets up the specified project after the ng-add dependencies have been installed.",
+      "private": true,
+      "factory": "./src/ng-add/setup-project/index",
+      "schema": "./src/ng-add/schema.json"
+    },
+    "blank": {
+      "description": "Set up boot page",
+      "private": true,
+      "factory": "./src/ng-generate/blank/index",
+      "schema": "./src/ng-generate/blank/schema.json"
+    },
+    "sidemenu": {
+      "description": "Add Sidebar Navigation Layout in your project.",
+      "factory": "./src/ng-generate/side-menu/index",
+      "schema": "./src/ng-generate/side-menu/schema.json"
+    },
+    "topnav": {
+      "description": "Add Top Navigation Layout in your project.",
+      "factory": "./src/ng-generate/topnav/index",
+      "schema": "./src/ng-generate/topnav/schema.json"
+    },
+    "add-icon-assets": {
+      "description": "Add icon assets into CLI config",
+      "factory": "./src/ng-add/setup-project/add-icon-assets#addIconToAssets",
+      "schema": "./src/ng-generate/boot-page/schema.json",
+      "aliases": ["fix-icon"]
+    },
+    "component": {
+      "aliases": [ "c" ],
+      "factory": "./src/ng-component",
+      "description": "Create an Angular component.",
+      "schema": "./src/ng-component/schema.json"
+    }
+  }
+}
