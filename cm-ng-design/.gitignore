@@ -44,3 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Outputs
+cm-lib/**/*.js
+cm-lib/**/*.js.map
+cm-lib/**/*.d.ts
+*.tgz
+

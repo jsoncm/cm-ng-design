@@ -8,8 +8,11 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "package:lib":"ng build cm-lib && cd dist/cm-ng-design && npm pack",
-    "clean:sandbox": "git checkout projects/sandbox package.json package-lock.json && git clean -f -d projects/sandbox"
+    "build:lib":"ng build cy-lib",
+    "build:schematic":"cd projects/cy-lib && npm run build",
+    "link:lib":"npm link dist/cy-design",
+    "clean:sandbox": "git checkout projects/sandbox package.json package-lock.json angular.json && git clean -f -d projects/sandbox",
+    "package":"cd dist/cy-design && npm pack"
   },
   "private": true,
   "dependencies": {

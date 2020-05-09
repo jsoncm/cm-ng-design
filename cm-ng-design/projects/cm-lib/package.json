@@ -1,6 +1,12 @@
 {
   "name": "cm-ng-design",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "schematics": "./schematics/collection.json",
+  "scripts": {
+    "build": "tsc -p tsconfig.schematics.json",
+    "copy:files": "cp --parents -p -r schematics ../../dist/cy-design/",
+    "postbuild": "npm run copy:files"
+  },
   "dependencies": {
     "@angular/cdk": "^9.0.0",
     "@ant-design/icons-angular": "^9.0.0",
